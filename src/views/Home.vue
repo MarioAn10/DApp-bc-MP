@@ -1,18 +1,35 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>
+      <h1>My accounts</h1>
+      <form @submit.prevent="create">
+        <div class="form-group">
+          <label for="name">Name of your new Account</label>
+          <input
+            type="email"
+            class="form-control"
+            id="name"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+      </form>
+      <hr>
+      <ul>
+        <li>Account 1</li>
+        <li>Account 2</li>
+        <li>Account 3</li>
+      </ul>
+    </div>
+    <div>
+      <h1>BC Project</h1>
+      <hr />
+      <h2>A starter blockchain project for Macro Proyectos</h2>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
-
 export default {
   name: 'Home',
-  components: {
-    HelloWorld,
-  },
 };
 </script>
