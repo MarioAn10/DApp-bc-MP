@@ -1,3 +1,8 @@
+## DApp de proyecto BlockChain - MP
+
+Esta es una DApp generada a partir de la transferencia de conocimiento
+para el desarrollo de tecnologías basadas en BlockChain utilizando Vue.js .
+
 # bc-web
 
 ## Project setup
